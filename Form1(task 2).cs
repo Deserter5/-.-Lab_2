@@ -11,14 +11,14 @@ namespace Task2
         {
             if (numLen.Value < 4)
             {
-                MessageBox.Show("Äîâæèíà ïàðîëÿ ìàº áóòè ì³í³ìóì 4 ñèìâîëè!");
+                MessageBox.Show("Ã„Ã®Ã¢Ã¦Ã¨Ã­Ã  Ã¯Ã Ã°Ã®Ã«Ã¿ Ã¬Ã Âº Ã¡Ã³Ã²Ã¨ Ã¬Â³Ã­Â³Ã¬Ã³Ã¬ 4 Ã±Ã¨Ã¬Ã¢Ã®Ã«Ã¨!");
                 return;
             }
 
             decimal totalPercent = numUpper.Value + numLower.Value + numDigits.Value + numSpec.Value;
             if (totalPercent != 100)
             {
-                MessageBox.Show("Ïîìèëêà: Ñóìà âñ³õ â³äñîòê³â ìàº äîð³âíþâàòè 100%!");
+                MessageBox.Show("ÃÃ®Ã¬Ã¨Ã«ÃªÃ : Ã‘Ã³Ã¬Ã  Ã¢Ã±Â³Ãµ Ã¢Â³Ã¤Ã±Ã®Ã²ÃªÂ³Ã¢ Ã¬Ã Âº Ã¤Ã®Ã°Â³Ã¢Ã­Ã¾Ã¢Ã Ã²Ã¨ 100%!");
                 return;
             }
 
